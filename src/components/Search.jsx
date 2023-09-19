@@ -14,11 +14,12 @@ const Search = (props) => {
         }
     }
 
+    // 
+
     const handleFilter = (event) => {
         setType(event.target.dataset.type);
         searchMovies(search, event.target.dataset.type);
     }
-
 
     return <div className="row">
 
